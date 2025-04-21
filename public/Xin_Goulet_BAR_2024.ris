@@ -1,0 +1,20 @@
+TY  - JOUR
+T1  - Enhancing structural anomaly detection using a bounded autoregressive component
+AU  - Xin, Zhanwen
+AU  - Goulet, James-A.
+JO  - Mechanical Systems and Signal Processing
+VL  - 212
+SP  - 111279
+PY  - 2024
+DA  - 2024/04/15/
+SN  - 0888-3270
+DO  - https://doi.org/10.1016/j.ymssp.2024.111279
+UR  - https://www.sciencedirect.com/science/article/pii/S0888327024001778
+KW  - Structural health monitoring
+KW  - Anomaly detection
+KW  - Machine learning
+KW  - Model process error
+KW  - Bayesian Dynamic Linear Models
+KW  - Switching Kalman Filter
+AB  - Structural Health Monitoring has the potential to enhance the safety and serviceability of our aging infrastructures by detecting anomalies at an early stage. Bayesian Dynamic Linear Models (BDLM) have been shown to be effective at detecting anomalies by extracting structural patterns and latent variables from complex and noisy time series. However, the autoregressive component modelling the stationary prediction errors in most BDLM has a tendency to wrongfully capture patterns that should be attributed to anomalies, and thus hinders their detectability. This paper proposes a new bounded autoregressive (BAR) component, which imposes constraints on the autoregressive latent process with a new mixture Rectified Linear activation Unit. The BAR component is probabilistically verified on synthetic data using a new F1t metric, and is validated using real observations collected on a bridge and on a dam located in Canada. The experimental results demonstrate that the BAR model surpasses the performance of the existing autoregressive component with (1) an improved accuracy at estimating hidden states, (2) an early detection of anomalies, (3) a capacity to detect smaller anomaly magnitudes, and (4) the ability to control the tradeoff between the anomaly detectability and the false alarm rate.
+ER  - 

@@ -1,4 +1,4 @@
----
+<!-- ---
 
 ---
 
@@ -13,4 +13,201 @@
 	<body>
 		<h1>Astro</h1>
 	</body>
+</html> -->
+
+---
+// You can import images or components at the top if needed
+---
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
+
+	<!-- Static picture
+	<img src="/zx_pic1.jpeg" alt="My Photo" style="width: 150px; border-radius: 50%;" /> -->
+    <!-- <title>Your Name</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" /> -->
+  </head>
+  <body style="font-family: 'Lato', sans-serif; padding: 2rem; max-width: 800px; margin: auto;">
+
+	<style>
+		.profile-pic {
+		  width: 150px;
+		  border-radius: 50%;
+		  transition: 0.3s;
+		}
+	  
+		.hover-container {
+		  display: inline-block;
+		  position: relative;
+		}
+	  
+		.hover-container img.hover {
+		  position: absolute;
+		  top: 0;
+		  left: 0;
+		  opacity: 0;
+		  transition: opacity 0.3s ease;
+		}
+	  
+		.hover-container:hover img.hover {
+		  opacity: 1;
+		}
+	  
+		.hover-container:hover img.default {
+		  opacity: 0;
+		}
+	  </style>
+	  
+	  <div style="display: flex; align-items: center; gap: 1.5rem;">
+		<div class="hover-container">
+			<img src="/zx_pic1.jpeg" alt="Profile" class="profile-pic default" />
+			<img src="/zx_pic2.jpeg" alt="Profile Hover" class="profile-pic hover" />
+		</div>
+
+		<div>
+			<h1 style="margin: 0;">Zhanwen Xin</h1>
+			<p style="margin: 0.5rem 0;">
+			  PhD student, Polytechnique Montreal<br />
+			  Department of Civil, Geological and Mining Engineering
+			</p>
+			<p style="margin: 0;">
+			  <a href="mailto:zhanwen.w.xin@gmail.com" target="_blank" style="text-decoration: none;">
+				<img src="/public/gmail.svg" alt="Email" style="height: 26px; margin-right: 0.7rem;" />
+			  </a>
+			  <a href="https://www.linkedin.com/in/zhanwen-xin-306372179/" target="_blank" style="text-decoration: none;">
+				<img src="/public/linkedin.svg" alt="LinkedIn" style="width: 24px; margin-right: 0.55rem;" />
+			  </a>
+			  <a href="https://github.com/zhanwen-xin" target="_blank" style="text-decoration: none;">
+				<img src="/public/github.svg" alt="GitHub" style="width: 24px;" />
+			  </a>
+			</p>
+		</div>
+	  </div>
+
+	  <hr style="border: none; border-top: 1px solid #ccc; margin: 2rem 0;" />
+
+
+      <h2>Hi!</h2>
+      <p>I am a 3-year PhD student at Polytechnique Montreal, Canada, with experience in</p>
+	  <ul>
+		<li>machine learning, time series anomaly detection and structural health monitoring (<em>current PhD program</em>)</li>
+		<li>composite structures of timeber and concrete (<em>master, Laval University, Quebec, Canada</em>)</li>
+		<li>general civil engineering (<em>BEng, SCUT, Guangzhou, China</em>)</li>
+	  </ul>
+	  <p>
+	  <strong>	
+	  I am always open to new opportunities related to student exchanges, internships, and career opportunities after my PhD (expected 2026). Please feel free to reach out to me!
+	  </strong>
+	  </p>
+    </header>
+
+	<hr style="border: none; border-top: 1px solid #ccc; margin: 2rem 0;" />
+
+    <section>
+      <h2>My Research</h2>
+	<p>
+		My research aims at ensuring the safety and serviceability of infrastructures in real time and at a large scale by monitoring sensor data with data-driven machine learning methods.
+	</p>
+		Structural deterioration typically results in non-stationary measurements over time. Detecting regime switches in time series data could enable the identification of structural damage.
+	</p>
+	<img src="/concept_detection.png" alt="Concept of regime switch detection" style="width: 45%; max-width: 700px; display: block; margin: 2rem auto;" />
+    </section>
+	<p>
+		I have experience using Kalman filters, switching Kalman filters, and deep learning methods—including classification, reinforcement learning, and imitation learning—to tackle this detection problem. 
+		Please check out my publications for more details if you're interested.
+	</p>
+
+	<hr style="border: none; border-top: 1px solid #ccc; margin: 2rem 0;" />
+
+    <section>
+		<h2>CV (last update April, 2025)</h2>
+		<p>
+			<a href="/public/202504_ZhanwenXin_CV.pdf" target="_blank" style="text-decoration: none; font-weight: bold;">
+			  📄 View my full CV (PDF)
+			</a>
+		  </p>
+	  </section>
+
+	  <hr style="border: none; border-top: 1px solid #ccc; margin: 2rem 0;" />
+
+    <section>
+      <h2>News...</h2>
+	  <ul>
+		<li><strong>2025-05:</strong> A new open-source package, named <em>Canari</em>, for time series analysis and anomaly detection will be released soon in July. I have contributed to this package.</li>
+		
+		<li><strong>2025-04:</strong> I will attend the São Paulo School of Advanced Science on Structural Safety in May.</li>
+		
+		<li><strong>2024-06:</strong> I will attend the IABMAS 2025 conference on bridge maintenance, safety, and management, organized by the International Association for Bridge Maintenance and Safety, in Copenhagen, Denmark.</li>
+		
+		<li><strong>2022-08:</strong> I obtained my MSc degree from Laval University. Starting in September, I joined the BayesWorks research group at Polytechnique Montreal.</li>
+		
+		<li><strong>2022-07:</strong> I presented my work on the early-age behavior of timber–concrete composite connectors at ICCS25 (25th International Conference on Composite Structures) in Porto, Portugal, in July, 2022.</li>
+	  </ul>
+    </section>
+
+	<hr style="border: none; border-top: 1px solid #ccc; margin: 2rem 0;" />
+
+    <section>
+      <h2>Publications</h2>
+		<div style="margin-bottom: 1.5rem;">
+			<p style="margin: 0;">
+			  <strong>[2024] Enhancing structural anomaly detection using a bounded autoregressive component </strong>
+			</p>
+			<div style="margin-left: 3.15rem;">
+				<p style="margin: 0;">
+				Xin, Z. and Goulet, J.-A.
+				</p>
+				<p style="margin: 0;">
+				<em>Mechanical Systems and Signal Processing</em>, Volume 212, pp. 111279.
+				</p>
+				<p style="margin: 0.3rem 0;">
+				<a href="https://profs.polymtl.ca/jagoulet/Site/Papers/Xin_Goulet_BAR_2024.pdf" target="_blank">[PDF]</a>
+				<a href="/public/Xin_Goulet_BAR_2024.ris" download>[EndNote]</a>
+				<a href="/public/Xin_Goulet_BAR_2024.bib" download>[BibTeX]</a>
+				<a href="https://www.youtube.com/watch?v=8jqwKp97PoY" target="_blank" style="display: inline-block;">
+					[<img src="/public/youtube.svg" alt="YouTube" style="width: 60px; vertical-align: middle;" />]
+				  </a>
+				</p>
+		    </div>
+		</div>
+
+		<div style="margin-bottom: 1.5rem;">
+			<p style="margin: 0;">
+			  <strong>[2024] Anomaly detection with switching Kalman filter and imitation learning </strong>
+			</p>
+			<div style="margin-left: 3.15rem;">
+				<p style="margin: 0;">
+				Xin, Z. and Goulet, J.-A.
+				</p>
+				<p style="margin: 0;">
+				<em>Bridge Maintenance, Safety, Management, Digitalization and Sustainability</em>, Pages 1531-1538.
+				</p>
+				<p style="margin: 0.3rem 0;">
+				<a href="https://www.taylorfrancis.com/chapters/oa-edit/10.1201/9781003483755-179/anomaly-detection-switching-kalman-filter-imitation-learning-zhanwen-xin-james-goulet" target="_blank">[PDF]</a>
+				<!-- <a href="/public/Xin_Goulet_BAR_2024.ris" download>[EndNote]</a>
+				<a href="/public/Xin_Goulet_BAR_2024.bib" download>[BibTeX]</a> -->
+				<a href="https://www.youtube.com/watch?v=RxWe8PJ3Lj8&t=55s" target="_blank" style="display: inline-block;">
+					[<img src="/public/youtube.svg" alt="YouTube" style="width: 60px; vertical-align: middle;" />]
+				  </a>
+				</p>
+		    </div>
+		</div>
+    </section>
+  </body>
 </html>
+
+<hr style="border: none; border-top: 1px solid #ccc; margin: 2rem 0;" />
+
+<section>
+  <h2>Hobbies (feel free to connect 
+	<a href="https://www.instagram.com/zhanwen_xin" target="_blank" style="text-decoration: none;">
+		<img src="/public/instagram.svg" alt="Instagram" style="width: 24px;" />
+	</a>)
+  </h2>
+  <ul style="list-style: none; padding-left: 0;">
+	<li>🧗 Sport climbing (especially bouldering)</li>
+	<li>⛸️ Figure skating</li>
+	<li>🥘 Cooking</li>
+  </ul>
+</section>

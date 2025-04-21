@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   role="img"
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="gmail.svg"
+   inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="9.8333333"
+     inkscape:cx="12.101695"
+     inkscape:cy="12"
+     inkscape:window-width="1309"
+     inkscape:window-height="456"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg6" />
+  <title
+     id="title2">Gmail</title>
+  <path
+     d="M 24,7.4908983 V 21.399898 c 0,0.904 -0.732,1.636 -1.636,1.636 h -3.819 v -9.272 l -6.545,4.91 -6.545,-4.91 v 9.273 H 1.636 A 1.636,1.636 0 0 1 0,21.399898 V 7.4908983 c 0,-2.023 2.309,-3.178 3.927,-1.964 l 1.528,1.147 6.545,4.9079997 6.545,-4.9099997 1.528,-1.145 c 1.617,-1.213 3.927,-0.059 3.927,1.964 z"
+     id="path4" />
+</svg>
